@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Bootcamp</title>
+	</head>
+	<body class="wrap_form_body bg-dark">
+		<form id="wrap-form" class="wrap-form">
+			<span class="icon-close-reg" id="icon-close-reg">
+				<ion-icon name="close"></ion-icon>
+			</span>
+
+			<div class="title-form-reg text-dark">Registration Form</div>
+
+			<div class="form">
+				<div id="error_msg"></div>
+
+				<div class="input_field">
+					<label>First Name</label>
+					<input type="text" id="firstname" class="name_input input" />
+					<div class="no_flex">
+						<p id="error_msg1"></p>
+						<div id="icon_level"></div>
+						<span id="passmark1"><ion-icon name="checkmark"></ion-icon></span>
+					</div>
+				</div>
+
+				<div class="input_field">
+					<label>Last Name</label>
+					<input type="text" id="lastname" class="name_input input" />
+					<div class="no_flex">
+						<p id="error_msg2"></p>
+						<div id="icon_level2">
+							<span id="none1"><ion-icon name="alert-circle"></ion-icon></span>
+						</div>
+						<span id="passmark2"><ion-icon name="checkmark"></ion-icon></span>
+					</div>
+				</div>
+
+				<div class="input_field">
+					<label>Email Address</label>
+					<input type="email" id="email_input" class="email_input input" />
+					<div class="no_flex">
+						<p id="error_msg6"></p>
+						<div id="icon_level6">
+							<span id="none5"><ion-icon name="alert-circle"></ion-icon></span>
+						</div>
+						<span id="passmark5"><ion-icon name="checkmark"></ion-icon></span>
+					</div>
+				</div>
+
+				<div class="input_field">
+					<label>Password</label>
+					<input
+						type="password"
+						id="password"
+						class="password_input input"
+						required
+					/>
+					<div class="no_flex">
+						<p id="error_msg3"></p>
+						<div id="icon_level3"><span id="none2"><ion-icon name="alert-circle"></ion-icon></span></div>
+						<span id="passmark3"><ion-icon name="checkmark"></ion-icon></span>
+					</div>
+				</div>
+
+				<div class="input_field">
+					<label>Confirm Password</label>
+					<input
+						type="password"
+						id="confirm_password"
+						class="password_input input"
+					/>
+					<div class="no_flex">
+						<p id="error_msg4"></p>
+						<div id="icon_level4">
+							<span id="none3"><ion-icon name="alert-circle"></ion-icon></span>
+						</div>
+						<span id="passmark4"><ion-icon name="checkmark"></ion-icon></span>
+					</div>
+				</div>
+
+				<!-- <div class="input_field">
+                    <label>Gender</label>
+					<div class="custom_select">
+                        <select>
+                            <option value="">select</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select>
+                       
+					</div>
+				</div> -->
+
+				<!-- <div class="input_field">
+                    <label>Phone Number</label>
+					<input type="number" id="phone_input" class="phone_input input" />
+                    <div class="no_flex">
+                        <p id="error_msg7"></p>
+                        <div id="icon_level7"><span id="none6"><ion-icon name="alert-circle"></ion-icon></span></div>
+                        <span id="passmark7"><ion-icon name="checkmark"></ion-icon></span>
+                        
+                    </div>
+				</div> -->
+
+				<!-- <div class="input_field">
+                    <label>Address</label>
+					<textarea class="textarea" id="textarea"></textarea>
+                    <div class="no_flex">
+                        <p id="error_msg8"></p>
+                        <div id="icon_level8"><span id="none7"><ion-icon name="alert-circle"></ion-icon></span></div>
+                        <span id="passmark8"><ion-icon name="checkmark"></ion-icon></span>
+
+                    </div>
+				</div> -->
+				<!-- 
+				<div class="input_field terms">
+					<label class="check">
+						<input type="checkbox" />
+						<span class="checkmark"></span>
+					</label>
+
+					<p>Agreed to terms & conditions</p>
+				</div> -->
+
+				<div class="input_field">
+					<button
+						type="submit"
+						id="btn_register"
+						class="btn btn_register bg-dark text-light"
+					>
+						Register
+					</button>
+				</div>
+			</div>
+		</form>
+
+		<script src="index2.js"></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
